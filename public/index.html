@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Map Platform</title>
     <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com; style-src 'self' https://unpkg.com; img-src 'self' data: https://{s}.tile.openstreetmap.org;">
 </head>
 <body>
-    <div id="map" style="height: 100vh;"></div>
+    <div id="map" style="width: 100%; height: 100vh;"></div>
+    <button id="calculate-distance">Calculate Distance</button>
+    <button id="calculate-area">Calculate Area</button>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="scripts/main.js"></script>
 </body>
