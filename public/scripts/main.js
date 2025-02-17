@@ -1,7 +1,7 @@
 // This file initializes the Leaflet map, sets up event listeners, and integrates the distance and area calculation tools.
 
 document.addEventListener('DOMContentLoaded', () => {
-    const map = L.map('map').setView([51.505, -0.09], 13);
+    const map = L.map('map').setView([64.0, 26.0], 5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
