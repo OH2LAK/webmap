@@ -1,0 +1,29 @@
+{
+  "name": "web-map-platform",
+  "version": "1.0.0",
+  "description": "A web map platform using Leaflet with distance and area calculation tools.",
+  "main": "public/scripts/main.js",
+  "scripts": {
+    "start": "http-server public",
+    "build": "echo 'Build step can be added here.'"
+  },
+  "keywords": [
+    "map",
+    "leaflet",
+    "osm",
+    "distance",
+    "area",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "http-server": "^0.12.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/web-map-platform.git"
+  }
+}
