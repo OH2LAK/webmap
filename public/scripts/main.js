@@ -1,5 +1,29 @@
 // This file initializes the Leaflet map, sets up event listeners, and integrates the distance and area calculation tools.
 
+class DistanceCalculator {
+    constructor(map) {
+        this.map = map;
+        // Additional initialization code here
+    }
+
+    start() {
+        // Code to start distance calculation
+        console.log('Distance calculation started');
+    }
+}
+
+class AreaCalculator {
+    constructor(map) {
+        this.map = map;
+        // Additional initialization code here
+    }
+
+    start() {
+        // Code to start area calculation
+        console.log('Area calculation started');
+    }
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const map = L.map('map').setView([64.0, 26.0], 5);
 
