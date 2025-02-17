@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Map Platform</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://unpkg.com; style-src 'self' https://unpkg.com; img-src 'self' data: https://a.tile.openstreetmap.org https://b.tile.openstreetmap.org https://c.tile.openstreetmap.org;">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
 </head>
 <body>
     <div id="map" class="map-container"></div>
     <button id="calculate-distance">Calculate Distance</button>
     <button id="calculate-area">Calculate Area</button>
-    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js?v=1.0"></script>
+    <script src="scripts/main.js?v=1.0"></script>
 </body>
 </html>
